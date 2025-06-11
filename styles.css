@@ -1,0 +1,23 @@
+body {
+	 font-family: "Times New Roman", Times, serif;
+	background-color:#F2FCE8;
+	color: #5A0C03;
+.thumbleft{
+	float: left;
+	Padding-right: 10px;
+}
+.thumbright{
+	float: right;
+	padding-left: 10px;
+}
+a:link{
+	color:#02392F;
+	}
+	
+a:visited{
+	color:#326803;
+	}
+	
+a:hover{
+	color:#AA4339;
+	}
