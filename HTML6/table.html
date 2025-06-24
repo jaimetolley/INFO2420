@@ -14,6 +14,7 @@
 	text-align: center;
 	margin: 0 auto;
 	width: 90%;
+	width: 550px;
 }
 
 table, th, td{
@@ -29,13 +30,18 @@ caption{
 	color: #003300;
 	font-weight: bold;
 }
-
-th{
-	background: lightgray;
+.courses{
+	background-color: #ccc;
+	width: 25%
 }
 
-.days{
-	background: #99FF66;
+th.days{
+	background: #9f6;
+	width: 15%;
+}
+.schedule{
+	background: #ff9;
+	width: 15%;
 }
 
 </style>
@@ -44,6 +50,10 @@ th{
 <div class="center">
    <table >
 		<caption>My Class Schedule</caption>
+		
+		<colgroup class="courses"></colgroup>
+		<colgroup class="schedule" span="5"></colgroup>
+		
 		<tr>
 			<th>Courses</th>
 			<th class="days">Monday</th>
@@ -51,6 +61,7 @@ th{
 			<th class="days">Wednesday</th>
 			<th class="days">Thursday</th>
 			<th class="days">Friday</th>
+		
 		</tr>
 		<tr>
 			<th>INFO 1120</th>
