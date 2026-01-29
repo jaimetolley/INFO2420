@@ -1543,6 +1543,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -1626,7 +1627,6 @@
               ]
             },
             "id": "9606339a-ae5f-4882-aa63-0f872ac7adb8",
-            "zIndex": 17,
             "data": {
               "type": "tm.Actor",
               "name": "Processor",
@@ -1660,6 +1660,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -1743,7 +1744,6 @@
               ]
             },
             "id": "6af366dd-9e74-4327-9e6f-813b3e1278c9",
-            "zIndex": 18,
             "data": {
               "type": "tm.Process",
               "name": "Temp\nSensor",
